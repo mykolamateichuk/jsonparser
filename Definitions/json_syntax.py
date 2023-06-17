@@ -1,0 +1,19 @@
+OPENING_BRACE = '{'
+CLOSING_BRACE = '}'
+
+OPENING_BRACKET = '['
+CLOSING_BRACKET = ']'
+
+COMMA = ','
+COLON = ':'
+QUOTE = '"'
+
+SYNTAX = [
+    OPENING_BRACE, CLOSING_BRACE,
+    OPENING_BRACKET, CLOSING_BRACKET,
+    COMMA,
+    COLON,
+    QUOTE
+]
+
+WHITESPACE = [' ', '\n', '\r', '\t', '\b']
